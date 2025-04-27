@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    overflow-x: hidden;
+}
+.reg{
+    background-color:  #4CAF4F;
+    color: white;
+    padding: 8px 25px;
+}
+.hero{
+    background: #F5F7FA;
+   
+
+}
+.hero h1{
+    font-weight: 600;
+}
+
+.span{
+    color: #4CAF4F;
+}
+.card{
+    border: 3px rgba(239, 237, 237, 0.568) solid;
+}
+.local{
+    background: #F5F7FA;
+
+}
+.part{
+    width: 50%;
+}
+.textof{
+    width: 200px;
+    background-color: #F5F7FA;
+    margin-bottom: -30px;
+}
+
+
+@media(max-width:800px){
+    .part{
+        width: 70%;
+    }
+}
